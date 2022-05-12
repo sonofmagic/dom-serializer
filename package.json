@@ -1,17 +1,19 @@
 {
-  "name": "dom-serializer",
+  "name": "wxml-dom-serializer",
   "version": "2.0.0",
   "description": "render domhandler DOM nodes to a string",
-  "author": "Felix Boehm <me@feedic.com>",
+  "author": "Felix Boehm <me@feedic.com> ice breaker <1324318532@qq.com>",
   "sideEffects": false,
   "keywords": [
     "html",
     "xml",
-    "render"
+    "render",
+    "wxml",
+    "weapp"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/cheeriojs/dom-serializer.git"
+    "url": "git://github.com/sonofmagic/wxml-dom-serializer.git"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -64,6 +66,6 @@
       "^(.*)\\.js$": "$1"
     }
   },
-  "funding": "https://github.com/cheeriojs/dom-serializer?sponsor=1",
+  "funding": "https://github.com/sonofmagic/wxml-dom-serializer?sponsor=1",
   "license": "MIT"
 }

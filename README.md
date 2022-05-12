@@ -1,4 +1,6 @@
-# dom-serializer [![Build Status](https://travis-ci.com/cheeriojs/dom-serializer.svg?branch=master)](https://travis-ci.com/cheeriojs/dom-serializer)
+# wxml-dom-serializer [![Build Status](https://travis-ci.com/cheeriojs/dom-serializer.svg?branch=master)](https://travis-ci.com/cheeriojs/dom-serializer)
+
+> forked from [dom-serializer](https://github.com/cheeriojs/dom-serializer) and add support for `weapp wxml` format. Great Thanks to `dom-serializer` and `Felix Boehm`
 
 Renders a [domhandler](https://github.com/fb55/domhandler) DOM node or an array of domhandler DOM nodes to a string.
 
