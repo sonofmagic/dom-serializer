@@ -75,7 +75,11 @@ const unencodedElements = new Set([
 ]);
 
 function replaceQuotes(value: string): string {
-  return value.replace(/"/g, "&quot;");
+  /*
+   * 微信小程序替换为  single quote
+   * return value.replace(/"/g, "&quot;");
+   */
+  return value.replace(/"/g, "'");
 }
 
 /**
@@ -115,26 +119,28 @@ function formatAttributes(
 /**
  * Self-enclosing tags
  */
-const singleTag = new Set([
-  "area",
-  "base",
-  "basefont",
-  "br",
-  "col",
-  "command",
-  "embed",
-  "frame",
-  "hr",
-  "img",
-  "input",
-  "isindex",
-  "keygen",
-  "link",
-  "meta",
-  "param",
-  "source",
-  "track",
-  "wbr",
+const singleTag = new Set<string>([
+  /*
+   * "area",
+   * "base",
+   * "basefont",
+   * "br",
+   * "col",
+   * "command",
+   * "embed",
+   * "frame",
+   * "hr",
+   * "img",
+   * "input",
+   * "isindex",
+   * "keygen",
+   * "link",
+   * "meta",
+   * "param",
+   * "source",
+   * "track",
+   * "wbr",
+   */
   /**
    * 支付宝小程序
    */
