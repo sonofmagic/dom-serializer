@@ -135,14 +135,18 @@ const singleTag = new Set([
   "source",
   "track",
   "wbr",
-  // 支付宝小程序
-  "import-sjs",
-  // 微信&支付宝
-  "template",
-  // 微信&支付宝
-  "import",
-  // 微信&支付宝
-  "include",
+  /**
+   * 支付宝小程序
+   */
+  // "import-sjs",
+  /**
+   * 微信&支付宝
+   */
+  /*
+   * "template",
+   * "import",
+   * "include",
+   */
 ]);
 
 /**

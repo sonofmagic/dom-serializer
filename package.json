@@ -1,6 +1,6 @@
 {
   "name": "wxml-dom-serializer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "render domhandler DOM nodes to a string",
   "author": "Felix Boehm <me@feedic.com> ice breaker <1324318532@qq.com>",
   "sideEffects": false,
