@@ -1,6 +1,6 @@
 {
   "name": "wxml-dom-serializer",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "render domhandler DOM nodes to a string",
   "author": "Felix Boehm <me@feedic.com> ice breaker <1324318532@qq.com>",
   "sideEffects": false,
@@ -56,7 +56,7 @@
     "prettier": "prettier \"**/*.{ts,md,json,yml}\" --ignore-path .gitignore",
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc",
-    "build:esm": "tsc --module esnext --target es2019 --outDir lib/esm && echo '{\"type\":\"module\"}' > lib/esm/package.json",
+    "build:esm": "tsc --module esnext --target es2019 --outDir lib/esm && echo {\"type\":\"module\"} > lib/esm/package.json",
     "prepare": "npm run build"
   },
   "jest": {
